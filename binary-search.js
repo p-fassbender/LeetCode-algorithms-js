@@ -3,7 +3,7 @@
 // example: arr=[-5, 2, 4, 6, 10], t=6 -> should return 3
 // example: arr=[-5, 2, 4, 6, 10], t=20 -> should return -1
 
-// time complexity: O(n)
+// time complexity: O(logn)
 function binarySearch(arr, target) {
     let leftIndex = 0
     let rightIndex = arr.length - 1
