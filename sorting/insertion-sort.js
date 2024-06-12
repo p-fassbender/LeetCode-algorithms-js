@@ -2,6 +2,7 @@
 // const arr = [-6, 20, 8, -2, 4]
 // insertionSort(arr) => should return [-6, -2, 4, 8, 20]
 
+// time complexity: O(n^2)
 function insertionSort(arr) {
     for (let i = 1; i < arr.length; i++) {
         let numberToInsert = arr[i]
